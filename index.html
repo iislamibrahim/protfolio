@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtme10pzgKSPeJVJrG1O3tjR6lk98o4w8&callback=initMap"></script>
+<script>
+    function initMap() {
+        var location = { lat: 40.730610, lng: -73.935242 }; 
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 10,
+            center: location
+        });
+        var marker = new google.maps.Marker({ position: location, map: map });
+    }
+</script>
+    <title>John doe template</title>
+</head>
+<body  onload="initMap()">
+    <header class="header">
+        <div class="container">
+         <div class="header-content">
+            <p>Hello, I am</p>
+            <h1>John Doe</h1>
+            <p>Frond end Designer | Developer</p>
+            <img src="" alt="">
+            <button class="btn">Print Resume</button>
+            </div>
+        </div>
+    </header>
+        <div class="nav-bar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link">Resume</a>
+                </li>
+            </ul>
+            <ul class="navbar-image">
+                <li class="image-txt">
+                    <h5 class="brand-title">John Doe</h5>
+                    <div class="brand-subtitle">Web Designer | Developer</div>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blog" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="who-am-i">
+      <h2>Who am I ?</h2>
+      <p>A Web Designer / Developer Located In Our Lovely Earth</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sit amet, Qui deserunt consequatur fugit repellendus illo voluptas?</p>
+      <button>Download My CV</button>
+  </div>
+
+  <div class="personal-info">
+      <h2>Personal Info</h2>
+      <ul>
+          <li><strong>Birthdate:</strong> 09/13/1996</li>
+          <li><strong>Email:</strong> info@website.com</li>
+          <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+          <li><strong>Skype:</strong> John_Doe</li>
+          <li><strong>Address:</strong> 12345 Fake ST Nowhere AB Country.</li>
+      </ul>
+      <div class="social-icons">
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+  </div>
+  <div class="expertise">
+      <h2>My Expertise</h2>
+      <ul>
+          <li><strong>UX Design</strong><p>exercitat Repellendus, corrupt.</p></li>
+          <li><strong>Web Development</strong><p>Lorem ipsum dolor sit consectetur.</p></li>
+          <li><strong>Digital Marketing</strong><p>voluptate commodi illo voluptatibus.</p></li>
+      </ul>
+  </div>
+</div>
+<hr>
+<br><br>
+<h1 class="bb"><span style="color: red;">My</span> Resume</h1>
+<div class="container">
+    <div class="content">
+      <div class="section">
+        <h2>Expertise</h2>
+        <h3 style="color: red;">2017 - Present</h3>
+        <p>UX Developer</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p>
+        <h3 style="color: red;">2016 - 2017</h3>
+        <p>Front-end Developer</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p>
+        <h3 style="color: red;">2015 - 2016</h3>
+        <p>UX Designer</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p>
+      </div>
+      <div class="section">
+        <h2>Education</h2>
+        <h3 style="color: red;">2017 - Present</h3>
+        <p>B.E Computer Engineering</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error corrupti recusandae obcaecati odit repellat ducimus cum, minus tempora aperiam at.</p>
+        <h3 style="color: red;">2016 - 2017</h3>
+        <p>Diploma in Computer Engineering</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, id officiis quas placeat quia voluptas dolorum rem animi nostrum quae.aliquid repudiandae saepe!.</p>
+        <h3 style="color: red;">2015 - 2016</h3>
+        <p>High School Degree</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p>
+      </div>
+      <div class="section">
+        <h2>Skills</h2>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <p class="skill-name">hTL5 & CSS3</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <p class="skill-name">JavaScript</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <p class="skill-name">PHP</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <p class="skill-name">SQL</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <p class="skill-name">Laborum</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <p class="skill-name">Tempora</p>
+      </div>
+      <div class="section">
+        <h2>Languages</h2>
+        <p class="skill-name">English</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <p class="skill-name">French</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <p class="skill-name">Spanish</p>
+        <div class="skill-bar">
+          <div class="skill-bar-fill"></div>
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+  <div class="container-black">
+    <div class="card">
+        <i class="icon fas fa-clock"></i>
+        <div class="number">500</div>
+        <div class="text">Hours Worked</div>
+      </div>
+      <div class="card">
+        <i class="icon fas fa-laptop"></i>
+        <div class="number">50K</div>
+        <div class="text">Project Finished</div>
+      </div>
+      <div class="card">
+        <i class="icon fas fa-smile"></i>
+        <div class="number">200K</div>
+        <div class="text">Happy Clients</div>
+      </div>
+      <div class="card">
+        <i class="icon fas fa-heart"></i>
+        <div class="number">2K</div>
+        <div class="text">Coffee Drank</div>
+      </div>
+    </div><br><br>
+    <h1 class="bb"><span style="color: red;">My</span> Services</h1>
+    <div class="container">
+        <div class="content">
+            <div class="section">
+               <h2 style="text-align: start;">Ulam</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</p>
+            </div>
+            <div class="section">
+              <h2 style="text-align: start;">Asperiores</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</p>
+            </div>
+            <div class="section">
+              <h2 style="text-align: start;">Tempora</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</p>
+            </div>
+            <div class="section">
+              <h2 style="text-align: start;">Provident</h2>>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</p>
+            </div>
+            <div class="section">
+              <h2 style="text-align: start;">Consectetur</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</p>
+            </div>
+            <div class="section">
+               <h2 style="text-align: start;">Veritatis</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</p>
+            </div>
+        </div>
+    </div><br><br>
+    <h1 class="bb"><span style="color: red;">Packs</span> Pricing</h1>
+    <div class="container">
+        <div class="content-pack"></div>
+            <div class="section-pack">
+                <h2 style="color:#333;">Free</h2>
+                <p><sup>$</sup><span class="number">0</span><sub>/MO</sub></p>
+                <p>5 Project</p>
+                <p>1GB Storage</p>
+                <p>No Domain</p>
+                <p>1 User</p><br>
+                <button class="button-pack">Subscribe</button>
+            </div>
+            <div class="section-pack">
+                <h2 style="color:#333;">Basic</h2>
+                <p><sup>$</sup><span class="number">10</span> <sub>/MO</sub></p>
+                <p>50 Project</p>
+                <p>10GB Storage</p>
+                <p>1 Domain</p>
+                <p>5 User</p><br>
+                <button class="button-pack">Subscribe</button>
+            </div>
+            <div class="section-pack">
+                <h2 style="color:#333;">Exclusive</h2>
+                <p><sup>$</sup><span class="number">25</span> <sub>/MO</sub></p>
+                <p>150 Project</p>
+                <p>15GB Storage</p>
+                <p>5 Domain</p>
+                <p>15 User</p><br>
+                <button class="button-pack">Subscribe</button>
+            </div>
+            <div class="section-pack">
+                <h2 style="color:#333;">Pro</h2>
+                <p><sup>$</sup><span class="number">99</span> <sub>/MO</sub></p>
+                <p>500 Project</p>
+                <p>1000GB Storage</p>
+                <p>10 Domain</p>
+                <p>Unlimate User</p><br>
+                <button class="button-pack">Subscribe</button>
+            </div>
+        </div>
+        <div class="container-hire">
+          <div>
+          <p class="hire-content">I'Am Available For FreeLance</p>
+        </div>
+          <button class="button-hire">Hire me</button>
+        </div>
+    </div><br><br>
+
+<h1 class="bb"><span style="color: red;">My</span> Portfolio</h1>
+<div class="navigation">
+  <a href="#" class="new">New</a>
+  <a href="#">Advertising</a>
+  <a href="#">Branding</a>
+  <a href="#">Web</a>
+</div>
+<div class="container-portf">
+  <div class="portfolio-item">
+      <img src="imgs/advertising-1.jpg"alt="Portfolio Item 1">
+      <div class="title">Advertising</div>
+  </div>
+  <div class="portfolio-item">
+      <img src="imgs/advertising-2.jpg" alt="Portfolio Item 2">
+      <div class="title">Advertising</div>
+  </div>
+  <div class="portfolio-item">
+      <img src="imgs/advertising-3.jpg" alt="Portfolio Item 3">
+      <div class="title">Advertising</div>
+  </div>
+  <div class="portfolio-item">
+      <img src="imgs/advertising-4.jpg" alt="Portfolio Item 4">
+      <div class="title">Advertising</div>
+  </div>
+  <div class="portfolio-item">
+      <img src="imgs/branding-1.jpg" alt="Portfolio Item 5">
+      <div class="title">Branding</div>
+  </div>
+  <div class="portfolio-item">
+      <img src="imgs/branding-2.jpg" alt="Portfolio Item 6">
+      <div class="title">Branding</div>
+  </div>
+  <div class="portfolio-item">
+      <img src="imgs/web-1.jpg" alt="Portfolio Item 6">
+      <div class="title">Web</div>
+  </div>
+  <div class="portfolio-item">
+      <img src="imgs/web-2.jpg" alt="Portfolio Item 6">
+      <div class="title">Web</div>
+  </div>
+  <div class="portfolio-item">
+      <img src="imgs/branding-3.jpg" alt="Portfolio Item 6">
+      <div class="title">Branding</div>
+  </div>
+</div><br><br>
+
+<h1 class="bb"><span style="color: red;">Latest</span> News</h1>
+<section class="news-section">
+  <div class="news-item">
+      <div class="news-image">
+          <img src="imgs/blog1.jpg" alt="blog1">
+      </div>
+      <div class="news-content">
+          <h3>Consectetur adipisicing elit</h3>
+          <div class="news-meta">
+              <span>By: Admin</span>
+              <span>234 Likes</span>
+              <span>123 Comments</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <a href="#" class="read-more">Read more</a>
+      </div>
+  </div>
+  
+  <div class="news-item">
+      <div class="news-image">
+          <img src="imgs/blog2.jpg" alt="blog2">
+      </div>
+      <div class="news-content">
+          <h3>Explicabo illo</h3>
+          <div class="news-meta">
+              <span>By: Admin</span>
+              <span>456 Likes</span>
+              <span>264 Comments</span>
+          </div>
+          <p>Impedit excepturi laborum enim, vitae ipsam atque eum...</p>
+          <a href="#" class="read-more">Read more</a>
+      </div>
+  </div>
+  
+  <div class="news-item">
+      <div class="news-image">
+          <img src="imgs/blog3.jpg" alt="blog3">
+      </div>
+      <div class="news-content">
+          <h3>Porro Quisqua</h3>
+          <div class="news-meta">
+              <span>By: Admin</span>
+              <span>431 Likes</span>
+              <span>312 Comments</span>
+          </div>
+          <p>Impedit excepturi laborum enim, vitae ipsam atque eum...</p>
+          <a href="#" class="read-more">Read more</a>
+      </div>
+  </div>
+</section>
+
+<div class="contact-container">
+  <div id="map"></div>
+  <div class="contact-section">
+      <div class="contact-form">
+          <h2>Send a message</h2>
+          <form>
+              <label for="name">Name *</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4"></textarea>
+
+              <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+      </div>
+
+    
+      <div class="contact-info">
+          <h2>Get in touch</h2>
+          <p><strong>Phone:</strong> <a href="tel:+123456789">+123 456 789</a></p>
+          <p><strong>Address:</strong> 12345 Fake ST NoWhere AB Country.</p>
+          <p><strong>Email:</strong> <a href="mailto:info@website.com">info@website.com</a></p>
+          
+          
+          <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-google"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+          </div>
+      </div>
+  </div>
+</div>
+<footer class="footer">
+  
+  <div class="footer-content">
+      <span class="vv">
+          &copy; <script>document.write(new Date().getFullYear())</script> Created With By <a href="" target="_blank">Islam Ibrahim</a> 
+        </span>
+  </div>
+</footer>
+
+
+</body>
+</html>
